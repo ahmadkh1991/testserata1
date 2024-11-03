@@ -13,5 +13,7 @@ class AttendanceRecord(models.Model):
         ('present', 'Present'),
         ('absent', 'Absent')
     ], string="Status", required=True)
+    test = fields.Char(string="Test")
+    
 
 
